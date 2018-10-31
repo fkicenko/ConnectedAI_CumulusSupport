@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bar"
+        android:layout_marginBottom="10dip" >
+		
+		<ImageButton
+		    android:id="@+id/imageButton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		    android:paddingLeft="7dip"
+		    android:paddingRight="7dip"
+		    android:onClick="onClick"
+		    android:background="@null"
+		    android:src="@drawable/increase" />
+		
+		<ImageButton
+		    android:id="@+id/imageButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/imageButton2"
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		    android:paddingLeft="7dip"
+		    android:paddingRight="7dip"
+		    android:onClick="onClick"
+		    android:background="@null"
+		    android:src="@drawable/decrease" />		
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		    android:paddingLeft="7dip"
+		    android:paddingRight="7dip"
+            android:onClick="onClick"
+            android:background="@null"
+            android:src="@drawable/copy" />
+        
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imageButton3"
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		    android:paddingLeft="7dip"
+		    android:paddingRight="7dip"
+            android:onClick="onClick"
+            android:background="@null"
+            android:src="@drawable/share" />        
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:padding="10dip" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="TextView" />
+    </ScrollView>
+
+</LinearLayout>

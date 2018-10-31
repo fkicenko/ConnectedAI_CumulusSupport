@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+
+
+android {
+
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.cisco.tme"
+        minSdkVersion 26
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    jcenter()
+    mavenLocal()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+
+def dbflow_version = "4.0.3"
+def supportLibraryVersion = '27.1.1'
+def googleApiClientVersion = '1.22.0'
+def firebaseVersion = '12.0.1'
+
+dependencies {
+    implementation "com.google.firebase:firebase-messaging:${firebaseVersion}"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.code.gson:gson:2.8.1'
+    // Google Support Libraries
+    implementation "com.android.support:support-v13:${supportLibraryVersion}"
+    implementation "com.android.support:design:${supportLibraryVersion}"
+    implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
+    implementation "com.android.support:cardview-v7:${supportLibraryVersion}"
+    implementation "com.android.support:support-fragment:${supportLibraryVersion}"
+    // REST Client
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.codepath.libraries:android-oauth-handler:1.2.5'
+    // Glide for remote image loading
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    // Android Async Http for sending async network requests
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    // DBFlow for simple persistence with an ORM
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+    implementation "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
+    implementation "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
+    // Images in CardView
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    // Logging
+    implementation 'com.jakewharton.timber:timber:4.1.2'
+    // Glide image library
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    // Emoji Icons
+    implementation 'com.github.hani-momanii:SuperNova-Emoji:1.0'
+    // Smack for XMPP
+    implementation 'org.igniterealtime.smack:smack-android:4.2.0'
+    implementation 'org.igniterealtime.smack:smack-tcp:4.2.0'
+    implementation 'org.igniterealtime.smack:smack-android-extensions:4.2.0'
+    implementation 'org.igniterealtime.smack:smack-experimental:4.2.0'
+    // For DialogFlow
+    //implementation 'ai.api:sdk:2.0.7@aar'
+    implementation 'ai.api:libai:1.6.11'
+    implementation project(':ailib')
+    // Google Push Notifications
+    implementation "com.google.firebase:firebase-core:${firebaseVersion}"
+    implementation "com.google.firebase:firebase-auth:${firebaseVersion}"
+    implementation "com.google.android.gms:play-services-wallet:${firebaseVersion}"
+    implementation "com.google.firebase:firebase-crash:${firebaseVersion}"
+    // FlexboxLayout
+    implementation 'com.google.android:flexbox:0.2.6'
+    // Dependencies for Google API Client Libraries
+    implementation("com.google.http-client:google-http-client:$googleApiClientVersion") {
+        exclude module: 'httpclient'
+        exclude module: 'jsr305'
+    }
+    implementation("com.google.api-client:google-api-client-android:$googleApiClientVersion"){
+        exclude module: 'httpclient'
+        exclude module: 'jsr305'
+    }
+    implementation("com.google.apis:google-api-services-language:v1-rev386-$googleApiClientVersion") {
+        exclude module: 'httpclient'
+        exclude module: 'jsr305'
+    }
+}
+// Google Push Notifications
+apply plugin: 'com.google.gms.google-services'
+/*task copySecretKey(type: Copy) {
+    def File secretKey = file "$System.env.GOOGLE_APPLICATION_CREDENTIALS"
+    from secretKey.getParent()
+    include secretKey.getName()
+    into 'src/main/res/raw'
+    rename secretKey.getName(), "credential.json"
+}
+preBuild.dependsOn(copySecretKey)*/

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @formatter:off -->
+<resources>
+
+    <!-- API specific theme attributes 21+ -->
+    <declare-styleable name="AppThemeAttributes">
+        <attr name="selectableDrawableColorDefault" format="reference|color"/>
+        <attr name="selectableDrawableColorInverse" format="reference|color"/>
+        <attr name="selectableDrawableColor" format="reference|color"/>
+        <attr name="selectableRectDrawable" format="reference"/>
+        <attr name="selectableRectDrawableInverse" format="reference"/>
+        <attr name="selectableRectDrawableColored" format="reference"/>
+        <attr name="selectableRoundedRectDrawable" format="reference"/>
+        <attr name="selectableRoundedRectDrawableInverse" format="reference"/>
+        <attr name="selectableRoundedRectDrawableColored" format="reference"/>
+    </declare-styleable>
+
+</resources>

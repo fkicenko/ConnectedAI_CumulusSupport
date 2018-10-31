@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Cumulus Support</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="non_empty_query">Query should not be empty</string>
+    <!-- Login ID -->
+    <string name="login_text">Login ID:</string>
+    <!-- Password -->
+    <string name="login_passwd">Login Password:</string>
+    <!-- Login Button -->
+    <string name="login_btn">Log In</string>
+    <!-- Oauth Rest -->
+    <!-- Bluetooth -->
+    <string name="use_bluetooth_headset">Use Bluetooth headset</string>
+    <!-- Bluetooth -->
+    <string name="use_voice">Use Natural Language </string>
+    <!-- Google Analytics -->
+    <string name="salience_format">Salience: %.3f</string>
+    <string name="score">Score</string>
+    <string name="magnitude">Magnitude</string>
+    <string name="sample_text">
+        Google, headquartered in Mountain View, unveiled the new Android phone at the Consumer
+        Electronic Show.  Sundar Pichai said in his keynote that users love their new Android
+        phones.
+    </string>
+
+    <string name="introduction">
+        Enter text in English, Spanish or Japanese.
+    </string>
+
+    <string-array name="api_names">
+        <item>Entities</item>
+        <item>Sentiment</item>
+        <item>Syntax</item>
+    </string-array>
+    <!-- Home -->
+
+    <!-- Set Theme Dialog -->
+
+    <!-- Cumulus Alert Snackbar -->
+    <string name="cumulus_alert_header">Cumulus Alert!</string>
+
+    <!-- Material Theme Elements -->
+    <string name="material_theme_red">Red</string>
+    <string name="material_theme_orange">Orange</string>
+    <string name="material_theme_lime">Lime</string>
+    <string name="material_theme_green">Green</string>
+    <string name="material_theme_teal">Teal</string>
+    <string name="material_theme_blue">Blue</string>
+    <string name="material_theme_purple">Purple</string>
+    <string name="material_theme_current_theme">Current Theme</string>
+    <string name="material_theme_green_theme">Green Theme</string>
+    <string name="material_theme_blue_theme">Blue Theme</string>
+    <string name="material_theme_buttons_raised">Buttons: Raised (Default)</string>
+    <string name="material_theme_buttons_no_raise">Buttons: No Raise</string>
+    <string name="material_theme_buttons_flat">Buttons: Flat</string>
+    <string name="material_theme_default">Default</string>
+    <string name="material_theme_colored">Colored</string>
+    <string name="material_theme_colored_text">Colored Text</string>
+    <string name="material_theme_selectable_items_rect">Selectable Items: Rectangle</string>
+    <string name="material_theme_selectable_items_rounded_rect">Selectable Items: Rounded Rectangle</string>
+    <string name="material_theme_text_fields">Text Fields</string>
+    <string name="material_theme_radio_buttons">Radio Buttons</string>
+    <string name="material_theme_checkboxes">Checkboxes</string>
+    <string name="material_theme_switches">Switches</string>
+    <string name="material_theme_spinners">Dropdown Spinners</string>
+    <string name="material_theme_sliders">Sliders</string>
+    <string name="material_theme_progress_indicators">Progress Indicators</string>
+    <string name="material_theme_icons">Icons</string>
+    <string name="material_theme_dialogs">Dialogs</string>
+    <string name="material_theme_dialog_button_positive">Positive</string>
+    <string name="material_theme_dialog_button_negative">Negative</string>
+
+    <!-- Spinners -->
+    <string name="spinner_item_1">One</string>
+    <string name="spinner_item_2">Two</string>
+    <string name="spinner_item_3">Three</string>
+    <string name="spinner_item_4">Four</string>
+    <string name="spinner_item_5">Five</string>
+
+    <string-array name="spinner_items_array">
+        <item>@string/spinner_item_1</item>
+        <item>@string/spinner_item_2</item>
+        <item>@string/spinner_item_3</item>
+        <item>@string/spinner_item_4</item>
+        <item>@string/spinner_item_5</item>
+    </string-array>
+
+    <!-- Snackbars -->
+    <string name="snackbar_action">onActionAlert</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_call">Call Us</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Cumulus Chat</item>
+        <item>Call</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="activity_title_about_us">About Us</string>
+</resources>

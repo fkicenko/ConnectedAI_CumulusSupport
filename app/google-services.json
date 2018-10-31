@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "458752743422",
+    "firebase_url": "https://cumulussupport.firebaseio.com",
+    "project_id": "cumulussupport",
+    "storage_bucket": "cumulussupport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458752743422:android:cff4bd7c3694cbbc",
+        "android_client_info": {
+          "package_name": "com.cisco.tme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458752743422-aaa9tpt3cfo0ah33e9jktcfsplbmd75e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cisco.tme",
+            "certificate_hash": "80f1499e11b39ac9352b219135979efe145b142a"
+          }
+        },
+        {
+          "client_id": "458752743422-hr7n3bjkq0c8th9km4cd3mvamiqg5k5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cisco.tme",
+            "certificate_hash": "4c90198be0d9407b7673f0c4d4d7485e58e21ddb"
+          }
+        },
+        {
+          "client_id": "458752743422-o6r3g3tlpd96e9dt421jbj2854dokg5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADnigcwcjXRtTwW_L7Meqvs0oLFZqu3ac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458752743422-o6r3g3tlpd96e9dt421jbj2854dokg5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

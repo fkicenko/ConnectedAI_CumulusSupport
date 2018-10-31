@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="view_alpha_background">#4Db4b4b4</color>
+    <color name="divider_color">#cfcfcf</color>
+
+    <!-- Material Color Palette -->
+    <color name="material_gray_200">#EEEEEE</color>
+
+    <color name="material_red_500">#F44336</color>
+    <color name="material_red_700">#D32F2F</color>
+    <color name="material_red_a700">#D50000</color>
+
+    <color name="material_orange_500">#FF9800</color>
+    <color name="material_orange_700">#F57C00</color>
+    <color name="material_orange_a700">#FF6D00</color>
+
+    <color name="material_lime_500">#CDDC39</color>
+    <color name="material_lime_700">#AFB42B</color>
+    <color name="material_lime_a700">#AEEA00</color>
+
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_green_a700">#00C853</color>
+
+    <color name="material_teal_500">#009688</color>
+    <color name="material_teal_700">#00796B</color>
+    <color name="material_teal_a700">#00BFA5</color>
+
+    <color name="material_blue_500">#2196F3</color>
+    <color name="material_blue_700">#1976D2</color>
+    <color name="material_blue_a700">#2962FF</color>
+
+    <color name="material_purple_500">#9C27B0</color>
+    <color name="material_purple_700">#7B1FA2</color>
+    <color name="material_purple_a700">#AA00FF</color>
+
+    <!-- Selectors -->
+    <color name="selector_normal">@android:color/transparent</color>
+    <color name="selector_white_focused">#22FFFFFF</color>
+    <color name="selector_white_pressed">#33FFFFFF</color>
+    <color name="selector_black_focused">#12000000</color>
+    <color name="selector_black_pressed">#1F000000</color>
+    <color name="selector_red_focused">#22D50000</color>
+    <color name="selector_red_pressed">#44D50000</color>
+    <color name="selector_orange_focused">#22FF6D00</color>
+    <color name="selector_orange_pressed">#44FF6D00</color>
+    <color name="selector_lime_focused">#22AEEA00</color>
+    <color name="selector_lime_pressed">#44AEEA00</color>
+    <color name="selector_green_focused">#2200C853</color>
+    <color name="selector_green_pressed">#4400C853</color>
+    <color name="selector_teal_focused">#2200BFA5</color>
+    <color name="selector_teal_pressed">#4400BFA5</color>
+    <color name="selector_blue_focused">#222962FF</color>
+    <color name="selector_blue_pressed">#442962FF</color>
+    <color name="selector_purple_focused">#22AA00FF</color>
+    <color name="selector_purple_pressed">#44AA00FF</color>
+    <!-- Google Analytica -->
+    <color name="score_positive">#43A047</color>
+    <color name="score_neutral">#757575</color>
+    <color name="score_negative">#E53935</color>
+    <color name="magnitude">#0288D1</color>
+    <color name="label">#558B2F</color>
+    <color name="part_of_speech">#757575</color>
+    <color name="accent">#FFC107</color>
+</resources>
